@@ -1,0 +1,55 @@
+.header{
+    position: relative;
+    width: 100%;
+    display: block;
+    overflow: auto;
+    padding-left:20px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    background-color: #f8f9fa;
+}
+.customer_login, .agent_login, .agent_crs_login{
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+.check_mail{
+    position: absolute;
+    right: 20px;
+}
+.icon{
+    vertical-align: unset !important;
+}
+
+ .link_lb{
+     
+    text-decoration: none !important;
+     color: #333333;
+     font-size: 14px;
+ }
+
+@media (max-width:600px){
+    .customer_login, .agent_login, .agent_crs_login{
+        display: none;
+    }
+}
+.feedback_form{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.input-group-text{
+    width: 168px !important;
+}
+.cus-content{
+    max-width: 1300px;
+    margin: auto;
+}
+.navbar{
+    border-bottom: 1px solid #d3d9df;
+}
+
+.input-group{
+    margin-top:10px;
+}
